@@ -20,7 +20,6 @@ c=1
 d=4
 r=not(a**2-b>c**2)and((a*3+c)/2<d)or True
 print(r)
-
 #ejemplo de condicional
 x=5
 y=10
