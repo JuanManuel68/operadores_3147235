@@ -28,4 +28,15 @@ JERARQUIA DEFINITIVA DE OPERADORES
 7.         and
 8.         or
 9.          =
+-si hay operaciones en el mismo nivel de jerarquia, se resuelven de izquierda a derecha
+-si hay parentesis dentro del parentesis se resuelve el parentesis interno
 '''
+
+op1 =False
+op2 =True
+op3 =False
+op4= True
+
+r= not op1 and (op2 or op3 and not op1) and not op4
+print(r)
+
